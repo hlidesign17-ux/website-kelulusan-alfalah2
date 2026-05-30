@@ -10,7 +10,7 @@ export default function ResultCard({ student }) {
         initial={{ opacity: 0, scale: 0.8 }}
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 1 }}
-        className="mt-10 relative overflow-hidden bg-white/10 border border-white/10 rounded-[40px] p-10 shadow-2xl backdrop-blur-xl max-w-2xl mx-auto"
+        className="mt-10 relative overflow-hidden bg-white/10 border border-white/10 rounded-[30px] md:rounded-[40px] p-5 md:p-10 shadow-2xl backdrop-blur-xl max-w-2xl mx-auto"
       >
         {/* GLOW */}
         <div className="absolute -top-20 -right-20 w-60 h-60 bg-green-400/20 blur-3xl rounded-full"></div>
@@ -37,20 +37,22 @@ export default function ResultCard({ student }) {
           <img
             src={student.foto}
             alt={student.nama}
-            className="w-40 h-40 rounded-full mx-auto object-cover border-4 border-green-400 shadow-lg shadow-green-500/40"
+            className="w-28 h-28 md:w-40 md:h-40 rounded-full mx-auto object-cover border-4 border-green-400 shadow-lg shadow-green-500/40"
           />
         </div>
 
         {/* STATUS */}
         <div className="relative z-10 mt-8 text-center">
-          <span className="bg-green-400 text-black px-6 py-3 rounded-full font-bold text-lg shadow-lg shadow-green-400/30">
-            DINYATAKAN LULUS
+          <span className="inline-block bg-green-400 text-black px-6 py-3 rounded-full font-bold text-lg shadow-lg shadow-green-400/30">
+            {student.status}
           </span>
         </div>
 
         {/* DATA SISWA */}
         <div className="relative z-10 mt-10 text-center">
-          <h3 className="text-4xl font-bold">{student.nama}</h3>
+          <h3 className="text-2xl md:text-4xl font-bold break-words">
+            {student.nama}
+          </h3>
 
           <p className="text-gray-300 mt-3 text-lg">{student.kelas}</p>
         </div>
@@ -71,12 +73,12 @@ export default function ResultCard({ student }) {
         </div>
 
         {/* PESAN */}
-        <div className="relative z-10 mt-10 text-center">
-          <p className="text-gray-300 leading-relaxed">
-            Selamat atas kelulusan Anda. Semoga menjadi generasi Islami yang
-            berilmu, berakhlak, dan membanggakan kedua orang tua.
-          </p>
-        </div>
+        <p className="text-gray-300 leading-relaxed">
+          Selamat atas kelulusan Ananda{" "}
+          <span className="font-bold text-green-300">{student.nama}</span>.
+          Semoga menjadi generasi Islami yang berilmu, berakhlak, dan
+          membanggakan kedua orang tua.
+        </p>
 
         {/* FOOTER */}
         <div className="relative z-10 mt-12 text-center border-t border-white/10 pt-8">
