@@ -35,7 +35,7 @@ export default function HomePage() {
         <div className="absolute w-96 h-96 bg-green-500/20 blur-3xl rounded-full"></div>
 
         <img
-          src="/images/logo.png"
+          src="/website-kelulusan-alfalah2/images/logo.png"
           alt="Logo Sekolah"
           className="relative z-10 w-[180px] sm:w-[240px] md:w-[420px] h-auto mb-3 drop-shadow-[0_0_50px_rgba(34,197,94,0.6)]"
         />
