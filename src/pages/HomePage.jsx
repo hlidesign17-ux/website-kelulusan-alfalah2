@@ -97,7 +97,7 @@ export default function HomePage() {
           <div className="grid md:grid-cols-2 gap-10 items-center mb-24">
             <div>
               <img
-                src="/images/kepala-sekolah.jpg"
+                src="/website-kelulusan-alfalah2images/kepala-sekolah.jpg"
                 alt="Kepala Sekolah"
                 className="w-full max-w-md mx-auto rounded-3xl shadow-2xl"
               />
@@ -141,7 +141,7 @@ export default function HomePage() {
               {/* Guru 1 */}
               <div className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-3xl overflow-hidden hover:scale-105 transition-all duration-300">
                 <img
-                  src="/images/guru1.jpg"
+                  src="/website-kelulusan-alfalah2images/guru1.jpg"
                   className="w-full h-[420px] object-cover"
                 />
 
@@ -166,7 +166,7 @@ export default function HomePage() {
               {/* Guru 2 */}
               <div className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-3xl overflow-hidden hover:scale-105 transition-all duration-300">
                 <img
-                  src="/images/guru2.jpg"
+                  src="website-kelulusan-alfalah2/images/guru2.jpg"
                   className="w-full h-[420px] object-cover"
                 />
 
@@ -217,7 +217,7 @@ export default function HomePage() {
               {/* Guru 4 */}
               <div className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-3xl overflow-hidden hover:scale-105 transition-all duration-300">
                 <img
-                  src="/images/guru4.jpg"
+                  src="/website-kelulusan-alfalah2/images/guru4.jpg"
                   className="w-full h-[420px] object-cover"
                 />
 
@@ -240,7 +240,7 @@ export default function HomePage() {
 
       {/* AUDIO */}
       <audio ref={audioRef} loop>
-        <source src="/music/kelulusan.mp3" type="audio/mpeg" />
+        <source src="/website-kelulusan-alfalah2/music/kelulusan.mp3" type="audio/mpeg" />
       </audio>
     </div>
   );
