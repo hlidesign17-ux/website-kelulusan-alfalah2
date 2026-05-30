@@ -141,7 +141,7 @@ export default function HomePage() {
               {/* Guru 1 */}
               <div className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-3xl overflow-hidden hover:scale-105 transition-all duration-300">
                 <img
-                  src="/website-kelulusan-alfalah2images/guru1.jpg"
+                  src="/website-kelulusan-alfalah2/images/guru1.jpg"
                   className="w-full h-[420px] object-cover"
                 />
 
@@ -166,7 +166,7 @@ export default function HomePage() {
               {/* Guru 2 */}
               <div className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-3xl overflow-hidden hover:scale-105 transition-all duration-300">
                 <img
-                  src="website-kelulusan-alfalah2/images/guru2.jpg"
+                  src="/website-kelulusan-alfalah2/images/guru2.jpg"
                   className="w-full h-[420px] object-cover"
                 />
 
@@ -193,7 +193,7 @@ export default function HomePage() {
               {/* Guru 3 */}
               <div className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-3xl overflow-hidden hover:scale-105 transition-all duration-300">
                 <img
-                  src="/images/guru3.jpg"
+                  src="/website-kelulusan-alfalah2/images/guru3.jpg"
                   className="w-full h-[420px] object-cover object-top"
                 />
 
@@ -240,7 +240,10 @@ export default function HomePage() {
 
       {/* AUDIO */}
       <audio ref={audioRef} loop>
-        <source src="/website-kelulusan-alfalah2/music/kelulusan.mp3" type="audio/mpeg" />
+        <source
+          src="/website-kelulusan-alfalah2/music/kelulusan.mp3"
+          type="audio/mpeg"
+        />
       </audio>
     </div>
   );
