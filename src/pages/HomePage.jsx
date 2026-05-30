@@ -153,7 +153,12 @@ export default function HomePage() {
                   <p className="text-green-400 text-sm">Wali Kelas 6A</p>
 
                   <p className="mt-4 text-gray-300 text-sm italic">
-                    "Teruslah belajar dan menjadi pribadi yang bermanfaat."
+                    "Teruslah belajar, di manapun kalian berada. Jadilah pribadi
+                    yang berintegrasi, bertanggung jawab, dan bermanfaat bagi
+                    orang lain. Jangan takut gagal karena dari kegagalan kalian
+                    akan tumbuh menjadi lebih kuat. Percayalah pada diri
+                    sendiri, karena kalian hebat dengan versi kalian
+                    masing-masing"
                   </p>
                 </div>
               </div>
@@ -173,7 +178,14 @@ export default function HomePage() {
                   <p className="text-green-400 text-sm">Wali Kelas 6B</p>
 
                   <p className="mt-4 text-gray-300 text-sm italic">
-                    "Jadilah generasi yang membanggakan orang tua."
+                    "Selamat atas kelulusanmu, anak-anak hebat!".Enam tahun
+                    bukanlah waktu yang singkat. Kalian telah belajar,
+                    bertumbuh, dan menunjukkan kerja keras yang luar biasa.
+                    Ingatlah, ini bukanlah akhir dari segalanya, melainkan
+                    langkah pertama dari pertualangan besar kalian. Teruslah
+                    bermimpi besar, tetaplah menjadi anak yang baik dan cerdas,
+                    dan berakhlak mulia. Bapak/ibu guru selalu bangga pada
+                    kalian!"
                   </p>
                 </div>
               </div>
@@ -216,7 +228,8 @@ export default function HomePage() {
 
                   <p className="mt-4 text-gray-300 text-sm italic">
                     Selamat lulus anak ku. <br></br>
-                    Rajinlah beribadah, teruslah belajar dan berkarya. <br></br>  Raihlah cita citamu.
+                    Rajinlah beribadah, teruslah belajar dan berkarya. <br></br>{" "}
+                    Raihlah cita citamu.
                   </p>
                 </div>
               </div>
