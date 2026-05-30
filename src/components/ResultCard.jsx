@@ -1,24 +1,50 @@
 import { motion } from "framer-motion";
-import Confetti from "react-confetti";
 
 export default function ResultCard({ student }) {
+  const fadeIn = (delay) => ({
+    initial: {
+      opacity: 0,
+    },
+    animate: {
+      opacity: 1,
+    },
+    transition: {
+      duration: 0.8,
+      delay,
+    },
+  });
   return (
     <>
-      <Confetti />
-
       <motion.div
-        initial={{ opacity: 0, scale: 0.8 }}
-        animate={{ opacity: 1, scale: 1 }}
-        transition={{ duration: 1 }}
-        className="mt-10 relative overflow-hidden bg-white/10 border border-white/10 rounded-[30px] md:rounded-[40px] p-5 md:p-10 shadow-2xl backdrop-blur-xl max-w-2xl mx-auto"
+        id="result-card"
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 0.8 }}
+        className="
+mt-10
+relative
+overflow-hidden
+bg-white/10
+border
+border-white/10
+rounded-[30px]
+md:rounded-[40px]
+p-5
+md:p-10
+shadow-2xl
+shadow-green-500/20
+backdrop-blur-xl
+max-w-2xl
+mx-auto
+"
       >
         {/* GLOW */}
         <div className="absolute -top-20 -right-20 w-60 h-60 bg-green-400/20 blur-3xl rounded-full"></div>
 
         {/* HEADER */}
-        <div className="relative z-10 text-center">
+        <motion.div className="relative z-10 text-center" {...fadeIn(0.5)}>
           <img
-            src="/images/logo.png"
+            src="/website-kelulusan-alfalah2/images/logo.png"
             alt="Logo Sekolah"
             className="w-24 h-auto mx-auto mb-6"
           />
@@ -30,35 +56,55 @@ export default function ResultCard({ student }) {
           <p className="text-green-300 mt-2 tracking-[3px] uppercase text-sm">
             Tahun Ajaran 2025/2026
           </p>
-        </div>
+        </motion.div>
 
         {/* FOTO */}
-        <div className="relative z-10 mt-10">
+        <motion.div className="relative z-10 mt-10" {...fadeIn(1.2)}>
           <img
             src={student.foto}
             alt={student.nama}
-            className="w-28 h-28 md:w-40 md:h-40 rounded-full mx-auto object-cover border-4 border-green-400 shadow-lg shadow-green-500/40"
+            className="w-40 h-56 md:w-52 md:h-72 rounded-2xl mx-auto object-cover border-4 border-green-400 shadow-lg shadow-green-500/40"
           />
-        </div>
+        </motion.div>
 
         {/* STATUS */}
-        <div className="relative z-10 mt-8 text-center">
-          <span className="inline-block bg-green-400 text-black px-6 py-3 rounded-full font-bold text-lg shadow-lg shadow-green-400/30">
+        <motion.div
+          className="relative z-10 mt-8 text-center"
+          initial={{
+            opacity: 0,
+            filter: "blur(10px)",
+          }}
+          animate={{
+            opacity: 1,
+            filter: "blur(0px)",
+          }}
+          transition={{
+            duration: 1.5,
+            delay: 3.2,
+          }}
+        >
+          <span className="inline-block bg-green-400 text-black px-8 py-3 rounded-full font-bold text-lg shadow-lg shadow-green-400/30">
             {student.status}
           </span>
-        </div>
+        </motion.div>
 
         {/* DATA SISWA */}
-        <div className="relative z-10 mt-10 text-center">
+        <motion.div
+          className="relative z-10 mt-10 text-center"
+          {...fadeIn(1.8)}
+        >
           <h3 className="text-2xl md:text-4xl font-bold break-words">
             {student.nama}
           </h3>
 
           <p className="text-gray-300 mt-3 text-lg">{student.kelas}</p>
-        </div>
+        </motion.div>
 
         {/* DETAIL */}
-        <div className="relative z-10 mt-10 grid md:grid-cols-2 gap-5">
+        <motion.div
+          className="relative z-10 mt-10 grid md:grid-cols-2 gap-5"
+          {...fadeIn(2.4)}
+        >
           <div className="bg-white/5 border border-white/10 rounded-2xl p-5">
             <p className="text-gray-400 text-sm mb-2">Nomor NISN</p>
 
@@ -70,24 +116,30 @@ export default function ResultCard({ student }) {
 
             <h4 className="text-xl font-bold">{student.peserta}</h4>
           </div>
-        </div>
+        </motion.div>
 
         {/* PESAN */}
-        <p className="text-gray-300 leading-relaxed">
-          Selamat atas kelulusan Ananda{" "}
-          <span className="font-bold text-green-300">{student.nama}</span>.
-          Semoga menjadi generasi Islami yang berilmu, berakhlak, dan
-          membanggakan kedua orang tua.
-        </p>
+        <motion.div
+          className="relative z-10 mt-10 text-center"
+          {...fadeIn(4.5)}
+        >
+          <p className="text-gray-300 leading-relaxed">
+            Selamat atas kelulusan Ananda{" "}
+            <span className="font-bold text-green-300">{student.nama}</span>.
+            Semoga menjadi generasi Islami yang berilmu, berakhlak, dan
+            membanggakan kedua orang tua.
+          </p>
+        </motion.div>
 
         {/* FOOTER */}
-        <div className="relative z-10 mt-12 text-center border-t border-white/10 pt-8">
+        <motion.div
+          className="relative z-10 mt-12 text-center border-t border-white/10 pt-8"
+          {...fadeIn(5.2)}
+        >
           <p className="text-gray-400 text-sm">Kepala Sekolah</p>
 
-          <h4 className="text-xl font-bold mt-3">
-            Drs. H. Nama Kepala Sekolah
-          </h4>
-        </div>
+          <h4 className="text-xl font-bold mt-3">Uttomo Widyanto, S.Pd.,SD</h4>
+        </motion.div>
       </motion.div>
     </>
   );

@@ -1,13 +1,13 @@
 export default function Navbar() {
   return (
     <header className="fixed top-0 left-0 w-full z-50 backdrop-blur-md bg-black/20 border-b border-white/10">
-      <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+      <div className="max-w-7xl mx-auto px-6 py-3 flex items-center justify-between">
         {/* LOGO & NAMA */}
         <div className="flex items-center gap-4">
           <img
-            src="/images/logo.png"
+            src="/website-kelulusan-alfalah2/images/logo.png"
             alt="Logo Sekolah"
-            className="w-12 h-12 object-contain"
+            className="h-20 md:h-24 w-auto object-contain"
           />
 
           <div>
