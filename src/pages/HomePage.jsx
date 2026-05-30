@@ -97,7 +97,7 @@ export default function HomePage() {
           <div className="grid md:grid-cols-2 gap-10 items-center mb-24">
             <div>
               <img
-                src="/website-kelulusan-alfalah2images/kepala-sekolah.jpg"
+                src="/website-kelulusan-alfalah2/images/kepala-sekolah.jpg"
                 alt="Kepala Sekolah"
                 className="w-full max-w-md mx-auto rounded-3xl shadow-2xl"
               />
