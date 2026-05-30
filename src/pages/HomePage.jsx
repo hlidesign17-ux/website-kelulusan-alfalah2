@@ -1,0 +1,234 @@
+import { useRef, useState } from "react";
+import Navbar from "../components/Navbar";
+import LoginForm from "../components/LoginForm";
+import ParticlesBackground from "../components/ParticlesBackground";
+
+export default function HomePage() {
+  const audioRef = useRef(null);
+  const [musicOn, setMusicOn] = useState(false);
+
+  const toggleMusic = () => {
+    if (!musicOn) {
+      audioRef.current.play();
+      setMusicOn(true);
+    } else {
+      audioRef.current.pause();
+      setMusicOn(false);
+    }
+  };
+
+  return (
+    <div className="relative min-h-screen bg-gradient-to-b from-green-950 via-green-900 to-black text-white overflow-hidden">
+      <ParticlesBackground />
+      <Navbar />
+
+      {/* BUTTON MUSIC */}
+      <button
+        onClick={toggleMusic}
+        className="fixed bottom-6 right-6 z-50 bg-green-500 hover:bg-green-400 text-black px-5 py-3 rounded-full shadow-lg shadow-green-500/30"
+      >
+        {musicOn ? "🔇 Matikan Musik" : "🔊 Nyalakan Musik"}
+      </button>
+
+      {/* HERO SECTION */}
+      <section className="relative h-screen flex flex-col items-center justify-center text-center px-6 overflow-hidden">
+        <div className="absolute w-96 h-96 bg-green-500/20 blur-3xl rounded-full"></div>
+
+        <img
+          src="/images/logo.png"
+          alt="Logo Sekolah"
+          className="relative z-10 w-[180px] sm:w-[240px] md:w-[420px] h-auto mb-3 drop-shadow-[0_0_50px_rgba(34,197,94,0.6)]"
+        />
+
+        <div className="relative z-10 mb-6">
+          <span className="bg-green-500/20 border border-green-400/30 text-green-300 px-6 py-2 rounded-full text-sm tracking-[3px] uppercase backdrop-blur-md">
+            Tahun Ajaran 2025/2026
+          </span>
+        </div>
+
+        <h1 className="relative z-10 text-5xl sm:text-6xl md:text-7xl font-black leading-tight">
+          SD Islam <br />
+          Al Falah 2 Jambi
+        </h1>
+
+        <p className="relative z-10 mt-6 text-green-200 text-base sm:text-lg md:text-2xl italic">
+          “Taqwa, Cerdas, Terampil”
+        </p>
+
+        <p className="relative z-10 mt-8 text-gray-300 max-w-2xl text-sm sm:text-base md:text-lg leading-relaxed">
+          Website resmi pengumuman kelulusan siswa SD Islam Al Falah 2 Jambi
+          Tahun Pelajaran 2025/2026.
+        </p>
+
+        <a
+          href="#cek-kelulusan"
+          className="relative z-10 mt-12 bg-green-500 hover:bg-green-400 transition-all duration-300 text-black font-bold px-7 py-4 sm:px-8 sm:py-4 md:px-10 md:py-5 rounded-full text-base sm:text-lg shadow-2xl shadow-green-500/30 hover:scale-105"
+        >
+          Cek Kelulusan
+        </a>
+      </section>
+
+      {/* FORM SECTION */}
+      <section
+        id="cek-kelulusan"
+        className="min-h-screen flex items-center justify-center px-6"
+      >
+        <LoginForm />
+      </section>
+
+      {/* TENDIK SECTION */}
+      {/* TENDIK SECTION */}
+      <section id="tendik" className="min-h-screen py-24 px-6 bg-black/20">
+        <div className="max-w-7xl mx-auto">
+          {/* JUDUL */}
+          <div className="text-center mb-20">
+            <h2 className="text-5xl font-bold text-white mb-4">
+              Kepala Sekolah dan Wali Kelas
+            </h2>
+
+            <div className="w-32 h-1 bg-green-500 mx-auto rounded-full"></div>
+
+            <p className="mt-6 text-gray-300">
+              Ucapan dan pesan dari Kepala Sekolah serta Wali Kelas 6
+            </p>
+          </div>
+
+          {/* KEPALA SEKOLAH */}
+          <div className="grid md:grid-cols-2 gap-10 items-center mb-24">
+            <div>
+              <img
+                src="/images/kepala-sekolah.jpg"
+                alt="Kepala Sekolah"
+                className="w-full max-w-md mx-auto rounded-3xl shadow-2xl"
+              />
+            </div>
+
+            <div>
+              <span className="text-green-400 uppercase tracking-[4px]">
+                Kepala Sekolah
+              </span>
+
+              <h3 className="text-4xl font-bold mt-3">
+                Utomo Widyanto, S.Pd., SD
+              </h3>
+
+              <p className="text-gray-300 mt-2">SD Islam Al Falah 2 Jambi</p>
+
+              <div className="mt-8 text-gray-200 leading-relaxed space-y-4">
+                <p>Assalamu'alaikum Warahmatullahi Wabarakatuh.</p>
+
+                <p>
+                  Selamat kepada seluruh siswa yang telah menyelesaikan
+                  pendidikan di SD Islam Al Falah 2 Jambi.
+                </p>
+
+                <p>
+                  Anak -anakku ,Tetaplah menjadi pribadi yang berakhlak baik.
+                  Betapapun tinggi ilmumu, kalau tidak menunaikan kewajiban
+                  salat lima waktu, kita bukan siapa - siapa
+                </p>
+              </div>
+            </div>
+          </div>
+
+          {/* GURU */}
+          <div>
+            <h3 className="text-3xl font-bold text-center mb-12">
+              Wali Kelas 6
+            </h3>
+
+            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+              {/* Guru 1 */}
+              <div className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-3xl overflow-hidden hover:scale-105 transition-all duration-300">
+                <img
+                  src="/images/guru1.jpg"
+                  className="w-full h-[420px] object-cover"
+                />
+
+                <div className="p-6">
+                  <h4 className="font-bold text-xl">
+                    Laura Delfiyana, S.TP., S,Pd., Gr
+                  </h4>
+
+                  <p className="text-green-400 text-sm">Wali Kelas 6A</p>
+
+                  <p className="mt-4 text-gray-300 text-sm italic">
+                    "Teruslah belajar dan menjadi pribadi yang bermanfaat."
+                  </p>
+                </div>
+              </div>
+
+              {/* Guru 2 */}
+              <div className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-3xl overflow-hidden hover:scale-105 transition-all duration-300">
+                <img
+                  src="/images/guru2.jpg"
+                  className="w-full h-[420px] object-cover"
+                />
+
+                <div className="p-6">
+                  <h4 className="font-bold text-xl">
+                    Dwi Haryani, S.Pd., M.Pd
+                  </h4>
+
+                  <p className="text-green-400 text-sm">Wali Kelas 6B</p>
+
+                  <p className="mt-4 text-gray-300 text-sm italic">
+                    "Jadilah generasi yang membanggakan orang tua."
+                  </p>
+                </div>
+              </div>
+
+              {/* Guru 3 */}
+              <div className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-3xl overflow-hidden hover:scale-105 transition-all duration-300">
+                <img
+                  src="/images/guru3.jpg"
+                  className="w-full h-[420px] object-cover object-top"
+                />
+
+                <div className="p-6">
+                  <h4 className="font-bold text-xl">Sukarni Bagindo, S.Pd</h4>
+
+                  <p className="text-green-400 text-sm">Wali Kelas 6C</p>
+
+                  <p className="mt-4 text-gray-300 text-sm italic">
+                    1.Belajarlah dengan penuh kesadaran dan ketulusan karena
+                    hasilnya untuk Ananda sendiri <br></br>
+                    2.Semoga Ananda mengamalkan dan menerapkan ajaran kebaikan
+                    dalam kehidupan sehari- hari. <br></br>
+                    3.Berpegang teguh pada Alquran,rajin salat,dan ibadah
+                    lainnya. <br></br>
+                    4.Jaga nama baik SD ISLAM AL FALAH 2 KOTA JAMBI.
+                  </p>
+                </div>
+              </div>
+
+              {/* Guru 4 */}
+              <div className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-3xl overflow-hidden hover:scale-105 transition-all duration-300">
+                <img
+                  src="/images/guru4.jpg"
+                  className="w-full h-[420px] object-cover"
+                />
+
+                <div className="p-6">
+                  <h4 className="font-bold text-xl">Widowati, S.Pd</h4>
+
+                  <p className="text-green-400 text-sm">Wali Kelas 6D</p>
+
+                  <p className="mt-4 text-gray-300 text-sm italic">
+                    Selamat lulus anak ku. <br></br>
+                    Rajinlah beribadah, teruslah belajar dan berkarya. <br></br>  Raihlah cita citamu.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* AUDIO */}
+      <audio ref={audioRef} loop>
+        <source src="/music/kelulusan.mp3" type="audio/mpeg" />
+      </audio>
+    </div>
+  );
+}

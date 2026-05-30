@@ -1,0 +1,19 @@
+[
+  {
+    "nisn": "1234567890",
+    "peserta": "2026-001",
+    "nama": "Ahmad Fauzan",
+    "kelas": "VI A",
+    "status": "LULUS",
+    "foto": "/images/ahmad.jpg"
+  },
+
+  {
+    "nisn": "9876543210",
+    "peserta": "2026-002",
+    "nama": "Siti Aisyah",
+    "kelas": "VI B",
+    "status": "LULUS",
+    "foto": "/images/siti.jpg"
+  }
+]
