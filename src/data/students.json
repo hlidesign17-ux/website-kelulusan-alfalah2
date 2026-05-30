@@ -1,19 +1,706 @@
 [
   {
-    "nisn": "1234567890",
-    "peserta": "2026-001",
-    "nama": "Ahmad Fauzan",
+    "nisn": "0141217916",
+    "peserta": "06-05-101-266-001-5",
+    "nama": "Adiarafa Farrin Siswanto",
     "kelas": "VI A",
     "status": "LULUS",
-    "foto": "/website-kelulusan-alfalah2/images/ahmad.jpg"
+    "foto": "/website-kelulusan-alfalah2/images/Adiarafa Farrin Siswanto.jpg"
   },
-
   {
-    "nisn": "9876543210",
-    "peserta": "2026-002",
-    "nama": "Siti Aisyah",
+    "nisn": "3134780744",
+    "peserta": "06-05-101-266-002-6",
+    "nama": "Alfiko Abiyasa Pradana",
+    "kelas": "VI A",
+    "status": "LULUS",
+    "foto": "/website-kelulusan-alfalah2/images/Alfiko Abiyasa Pradana.jpg"
+  },
+  {
+    "nisn": "0146043069",
+    "peserta": "06-05-101-266-003-7",
+    "nama": "Aliaha Saivana",
+    "kelas": "VI A",
+    "status": "LULUS",
+    "foto": "/website-kelulusan-alfalah2/images/Aliaha Saivana.jpg"
+  },
+  {
+    "nisn": "0143678646",
+    "peserta": "06-05-101-266-004-8",
+    "nama": "Aura Cinta Makshanda",
+    "kelas": "VI A",
+    "status": "LULUS",
+    "foto": "/website-kelulusan-alfalah2/images/Aura Cinta Makshanda.jpg"
+  },
+  {
+    "nisn": "0134661726",
+    "peserta": "06-05-101-266-005-9",
+    "nama": "Denaya Almira Rajwa Nurdyta",
+    "kelas": "VI A",
+    "status": "LULUS",
+    "foto": "/website-kelulusan-alfalah2/images/Denaya Almira Rajwa Nurdyta.jpg"
+  },
+  {
+    "nisn": "0148090102",
+    "peserta": "06-05-101-266-006-8",
+    "nama": "Frananda Azzora",
+    "kelas": "VI A",
+    "status": "LULUS",
+    "foto": "/website-kelulusan-alfalah2/images/Frananda Azzora.jpg"
+  },
+  {
+    "nisn": "0132778762",
+    "peserta": "06-05-101-266-007-7",
+    "nama": "Ghazi Zaka Prawira",
+    "kelas": "VI A",
+    "status": "LULUS",
+    "foto": "/website-kelulusan-alfalah2/images/Ghazi Zaka Prawira.jpg"
+  },
+  {
+    "nisn": "0141126290",
+    "peserta": "06-05-101-266-008-6",
+    "nama": "Kenza Zikrillah Bassar",
+    "kelas": "VI A",
+    "status": "LULUS",
+    "foto": "/website-kelulusan-alfalah2/images/Kenza Zikrillah Bassar.jpg"
+  },
+  {
+    "nisn": "0149096105",
+    "peserta": "06-05-101-266-009-5",
+    "nama": "Kenzie Alkhalifi Hatanta",
+    "kelas": "VI A",
+    "status": "LULUS",
+    "foto": "/website-kelulusan-alfalah2/images/Kenzie Alkhalifi Hatanta.jpg"
+  },
+  {
+    "nisn": "0143859107",
+    "peserta": "06-05-101-266-010-4",
+    "nama": "Kheyra Adillah Alfathunisa",
+    "kelas": "VI A",
+    "status": "LULUS",
+    "foto": "/website-kelulusan-alfalah2/images/Kheyra Adillah Alfathunisa.jpg"
+  },
+  {
+    "nisn": "0145660126",
+    "peserta": "06-05-101-266-011-3",
+    "nama": "M. Aldo Habibie Bassar",
+    "kelas": "VI A",
+    "status": "LULUS",
+    "foto": "/website-kelulusan-alfalah2/images/M. Aldo Habibie Bassar.jpg"
+  },
+  {
+    "nisn": "0139498726",
+    "peserta": "06-05-101-266-012-2",
+    "nama": "M. Gibran Altaf Arviansyah",
+    "kelas": "VI A",
+    "status": "LULUS",
+    "foto": "/website-kelulusan-alfalah2/images/M. Gibran Altaf Arviansyah.jpg"
+  },
+  {
+    "nisn": "0148381401",
+    "peserta": "06-05-101-266-013-1",
+    "nama": "Muhammad Agha Radhika Ario",
+    "kelas": "VI A",
+    "status": "LULUS",
+    "foto": "/website-kelulusan-alfalah2/images/Muhammad Agha Radhika Ario.jpg"
+  },
+  {
+    "nisn": "0131854543",
+    "peserta": "06-05-101-266-014-2",
+    "nama": "Muhammad Alfarizi",
+    "kelas": "VI A",
+    "status": "LULUS",
+    "foto": "/website-kelulusan-alfalah2/images/Muhammad Alfarizi.jpg"
+  },
+  {
+    "nisn": "0132408059",
+    "peserta": "06-05-101-266-015-3",
+    "nama": "Navid Adyan Fathurrizqi",
+    "kelas": "VI A",
+    "status": "LULUS",
+    "foto": "/website-kelulusan-alfalah2/images/Navid Adyan Fathurrizqi.jpg"
+  },
+  {
+    "nisn": "0137274628",
+    "peserta": "06-05-101-266-016-4",
+    "nama": "Oktozien Al-Baasith",
+    "kelas": "VI A",
+    "status": "LULUS",
+    "foto": "/website-kelulusan-alfalah2/images/Oktozien Al-Baasith.jpg"
+  },
+  {
+    "nisn": "0148545449",
+    "peserta": "06-05-101-266-017-5",
+    "nama": "Shareen Farnaz",
+    "kelas": "VI A",
+    "status": "LULUS",
+    "foto": "/website-kelulusan-alfalah2/images/Shareen Farnaz.jpg"
+  },
+  {
+    "nisn": "0142465517",
+    "peserta": "06-05-101-266-018-6",
+    "nama": "Aleyna Sharfina Afma",
     "kelas": "VI B",
     "status": "LULUS",
-    "foto": "/website-kelulusan-alfalah2/images/siti.jpg"
+    "foto": "/website-kelulusan-alfalah2/images/Aleyna Sharfina Afma.jpg"
+  },
+  {
+    "nisn": "0143036549",
+    "peserta": "06-05-101-266-019-7",
+    "nama": "Alfarand Dwi Putra",
+    "kelas": "VI B",
+    "status": "LULUS",
+    "foto": "/website-kelulusan-alfalah2/images/Alfarand Dwi Putra.jpg"
+  },
+  {
+    "nisn": "0138091462",
+    "peserta": "06-05-101-266-020-8",
+    "nama": "Alisha Syafiya Harsya",
+    "kelas": "VI B",
+    "status": "LULUS",
+    "foto": "/website-kelulusan-alfalah2/images/Alisha Syafiya Harsya.jpg"
+  },
+  {
+    "nisn": "3141632525",
+    "peserta": "06-05-101-266-021-9",
+    "nama": "Alvaro Irnanda Simbolon",
+    "kelas": "VI B",
+    "status": "LULUS",
+    "foto": "/website-kelulusan-alfalah2/images/Alvaro Irnanda Simbolon.jpg"
+  },
+  {
+    "nisn": "3140820251",
+    "peserta": "06-05-101-266-022-8",
+    "nama": "Amanda Syakirah",
+    "kelas": "VI B",
+    "status": "LULUS",
+    "foto": "/website-kelulusan-alfalah2/images/Amanda Syakirah.jpg"
+  },
+  {
+    "nisn": "3130617596",
+    "peserta": "06-05-101-266-023-7",
+    "nama": "Ammar Al Fatih",
+    "kelas": "VI B",
+    "status": "LULUS",
+    "foto": "/website-kelulusan-alfalah2/images/Ammar Al Fatih.jpg"
+  },
+  {
+    "nisn": "3130420849",
+    "peserta": "06-05-101-266-024-6",
+    "nama": "Andrian Hu Kimika",
+    "kelas": "VI B",
+    "status": "LULUS",
+    "foto": "/website-kelulusan-alfalah2/images/Andrian Hu Kimika.jpg"
+  },
+  {
+    "nisn": "0144991342",
+    "peserta": "06-05-101-266-025-5",
+    "nama": "Anisa Tri Monica",
+    "kelas": "VI B",
+    "status": "LULUS",
+    "foto": "/website-kelulusan-alfalah2/images/Anisa Tri Monica.jpg"
+  },
+  {
+    "nisn": "0136878223",
+    "peserta": "06-05-101-266-026-4",
+    "nama": "Aqilah Haffafa Hanesahalu",
+    "kelas": "VI B",
+    "status": "LULUS",
+    "foto": "/website-kelulusan-alfalah2/images/Aqilah Haffafa Hanesahalu.jpg"
+  },
+  {
+    "nisn": "0149000192",
+    "peserta": "06-05-101-266-027-3",
+    "nama": "Asysyifa Salsabila",
+    "kelas": "VI B",
+    "status": "LULUS",
+    "foto": "/website-kelulusan-alfalah2/images/Asysyifa Salsabila.jpg"
+  },
+  {
+    "nisn": "0144366696",
+    "peserta": "06-05-101-266-028-2",
+    "nama": "Audrey Naura Nadine Harahao",
+    "kelas": "VI B",
+    "status": "LULUS",
+    "foto": "/website-kelulusan-alfalah2/images/Audrey Naura Nadine Harahao.jpg"
+  },
+  {
+    "nisn": "0131416218",
+    "peserta": "06-05-101-266-029-9",
+    "nama": "Aulia Izzatunnisa H",
+    "kelas": "VI B",
+    "status": "LULUS",
+    "foto": "/website-kelulusan-alfalah2/images/Aulia Izzatunnisa H.jpg"
+  },
+  {
+    "nisn": "3135541495",
+    "peserta": "06-05-101-266-030-8",
+    "nama": "Bena Rahma Dani",
+    "kelas": "VI B",
+    "status": "LULUS",
+    "foto": "/website-kelulusan-alfalah2/images/Bena Rahma Dani.jpg"
+  },
+  {
+    "nisn": "0137800371",
+    "peserta": "06-05-101-266-031-7",
+    "nama": "Ahmad Erlangga",
+    "kelas": "VI B",
+    "status": "LULUS",
+    "foto": "/website-kelulusan-alfalah2/images/Ahmad Erlangga.jpg"
+  },
+  {
+    "nisn": "3139250090",
+    "peserta": "06-05-101-266-032-6",
+    "nama": "Faza Atharizzsyah",
+    "kelas": "VI B",
+    "status": "LULUS",
+    "foto": "/website-kelulusan-alfalah2/images/Faza Atharizzsyah.jpg"
+  },
+  {
+    "nisn": "0137715627",
+    "peserta": "06-05-101-266-033-5",
+    "nama": "Keyza Asyifa",
+    "kelas": "VI B",
+    "status": "LULUS",
+    "foto": "/website-kelulusan-alfalah2/images/Keyza Asyifa.jpg"
+  },
+  {
+    "nisn": "0136600721",
+    "peserta": "06-05-101-266-034-4",
+    "nama": "Muhammad Robby Muharam",
+    "kelas": "VI B",
+    "status": "LULUS",
+    "foto": "/website-kelulusan-alfalah2/images/Muhammad Robby Muharam.jpg"
+  },
+  {
+    "nisn": "3135174862",
+    "peserta": "06-05-101-266-035-3",
+    "nama": "Muhammad Zidan Al-Ghani",
+    "kelas": "VI B",
+    "status": "LULUS",
+    "foto": "/website-kelulusan-alfalah2/images/Muhammad Zidan Al-Ghani.jpg"
+  },
+  {
+    "nisn": "0148578568",
+    "peserta": "06-05-101-266-036-2",
+    "nama": "Nada Duratu Kaffah",
+    "kelas": "VI B",
+    "status": "LULUS",
+    "foto": "/website-kelulusan-alfalah2/images/Nada Duratu Kaffah.jpg"
+  },
+  {
+    "nisn": "0133601545",
+    "peserta": "06-05-101-266-037-9",
+    "nama": "Nafizah Putri Anisa",
+    "kelas": "VI B",
+    "status": "LULUS",
+    "foto": "/website-kelulusan-alfalah2/images/Nafizah Putri Anisa.jpg"
+  },
+  {
+    "nisn": "0147924763",
+    "peserta": "06-05-101-266-038-8",
+    "nama": "Naomi Zemikha Vannadar",
+    "kelas": "VI B",
+    "status": "LULUS",
+    "foto": "/website-kelulusan-alfalah2/images/Naomi Zemikha Vannadar.jpg"
+  },
+  {
+    "nisn": "0133393580",
+    "peserta": "06-05-101-266-039-7",
+    "nama": "Rafardhan Ibrahim Athalla",
+    "kelas": "VI B",
+    "status": "LULUS",
+    "foto": "/website-kelulusan-alfalah2/images/Rafardhan Ibrahim Athalla.jpg"
+  },
+  {
+    "nisn": "0143011126",
+    "peserta": "06-05-101-266-040-6",
+    "nama": "Rifky Putra Santiarga",
+    "kelas": "VI B",
+    "status": "LULUS",
+    "foto": "/website-kelulusan-alfalah2/images/Rifky Putra Santiarga.jpg"
+  },
+  {
+    "nisn": "0136277692",
+    "peserta": "06-05-101-266-041-5",
+    "nama": "Siti Alya Zahra Wallad",
+    "kelas": "VI B",
+    "status": "LULUS",
+    "foto": "/website-kelulusan-alfalah2/images/Siti Alya Zahra Wallad.jpg"
+  },
+  {
+    "nisn": "0135583454",
+    "peserta": "06-05-101-266-042-4",
+    "nama": "Adzkia Shakayla Derwin",
+    "kelas": "VI C",
+    "status": "LULUS",
+    "foto": "/website-kelulusan-alfalah2/images/Adzkia Shakayla Derwin.jpg"
+  },
+  {
+    "nisn": "0131519888",
+    "peserta": "06-05-101-266-043-3",
+    "nama": "Aqila Hananisa",
+    "kelas": "VI C",
+    "status": "LULUS",
+    "foto": "/website-kelulusan-alfalah2/images/Aqila Hananisa.jpg"
+  },
+  {
+    "nisn": "0149468765",
+    "peserta": "06-05-101-266-044-2",
+    "nama": "Azka Muhammad Azzam",
+    "kelas": "VI C",
+    "status": "LULUS",
+    "foto": "/website-kelulusan-alfalah2/images/Azka Muhammad Azzam.jpg"
+  },
+  {
+    "nisn": "3148098010",
+    "peserta": "06-05-101-266-045-9",
+    "nama": "Balqis Fairuz",
+    "kelas": "VI C",
+    "status": "LULUS",
+    "foto": "/website-kelulusan-alfalah2/images/Balqis Fairuz.jpg"
+  },
+  {
+    "nisn": "3145624594",
+    "peserta": "06-05-101-266-046-8",
+    "nama": "Cantika Maharani",
+    "kelas": "VI C",
+    "status": "LULUS",
+    "foto": "/website-kelulusan-alfalah2/images/Cantika Maharani.jpg"
+  },
+  {
+    "nisn": "0144930450",
+    "peserta": "06-05-101-266-047-7",
+    "nama": "Ceisya Khayra Aryanti",
+    "kelas": "VI C",
+    "status": "LULUS",
+    "foto": "/website-kelulusan-alfalah2/images/Ceisya Khayra Aryanti.jpg"
+  },
+  {
+    "nisn": "0139735383",
+    "peserta": "06-05-101-266-048-6",
+    "nama": "Dhafaa Asyraful Afyan",
+    "kelas": "VI C",
+    "status": "LULUS",
+    "foto": "/website-kelulusan-alfalah2/images/Dhafaa Asyraful Afyan.jpg"
+  },
+  {
+    "nisn": "0138878820",
+    "peserta": "06-05-101-266-049-5",
+    "nama": "Dyah Qori Fitria",
+    "kelas": "VI C",
+    "status": "LULUS",
+    "foto": "/website-kelulusan-alfalah2/images/Dyah Qori Fitria.jpg"
+  },
+  {
+    "nisn": "0148408192",
+    "peserta": "06-05-101-266-050-4",
+    "nama": "Fazila Naisha Azkadina",
+    "kelas": "VI C",
+    "status": "LULUS",
+    "foto": "/website-kelulusan-alfalah2/images/Fazila Naisha Azkadina.jpg"
+  },
+  {
+    "nisn": "3147875708",
+    "peserta": "06-05-101-266-051-3",
+    "nama": "Gie Azka Badilaya",
+    "kelas": "VI C",
+    "status": "LULUS",
+    "foto": "/website-kelulusan-alfalah2/images/Gie Azka Badilaya.jpg"
+  },
+  {
+    "nisn": "0149640616",
+    "peserta": "06-05-101-266-052-2",
+    "nama": "Kemas Muhammad Fathansyah",
+    "kelas": "VI C",
+    "status": "LULUS",
+    "foto": "/website-kelulusan-alfalah2/images/Kemas Muhammad Fathansyah.jpg"
+  },
+  {
+    "nisn": "3132792431",
+    "peserta": "06-05-101-266-053-9",
+    "nama": "Kenzie Dimas Prasetyo",
+    "kelas": "VI C",
+    "status": "LULUS",
+    "foto": "/website-kelulusan-alfalah2/images/Kenzie Dimas Prasetyo.jpg"
+  },
+  {
+    "nisn": "0139193387",
+    "peserta": "06-05-101-266-054-8",
+    "nama": "Khairul Azzam Rasyad",
+    "kelas": "VI C",
+    "status": "LULUS",
+    "foto": "/website-kelulusan-alfalah2/images/Khairul Azzam Rasyad.jpg"
+  },
+  {
+    "nisn": "0133024831",
+    "peserta": "06-05-101-266-055-7",
+    "nama": "M. Thariq Alfarizi",
+    "kelas": "VI C",
+    "status": "LULUS",
+    "foto": "/website-kelulusan-alfalah2/images/M. Thariq Alfarizi.jpg"
+  },
+  {
+    "nisn": "3134902288",
+    "peserta": "06-05-101-266-056-6",
+    "nama": "Meutia Zakiya Munzir",
+    "kelas": "VI C",
+    "status": "LULUS",
+    "foto": "/website-kelulusan-alfalah2/images/Meutia Zakiya Munzir.jpg"
+  },
+  {
+    "nisn": "0142885654",
+    "peserta": "06-05-101-266-057-5",
+    "nama": "Muhammad Gavin Byantara",
+    "kelas": "VI C",
+    "status": "LULUS",
+    "foto": "/website-kelulusan-alfalah2/images/Muhammad Gavin Byantara.jpg"
+  },
+  {
+    "nisn": "0135037795",
+    "peserta": "06-05-101-266-058-4",
+    "nama": "Muhammad Ridho Alvino",
+    "kelas": "VI C",
+    "status": "LULUS",
+    "foto": "/website-kelulusan-alfalah2/images/Muhammad Ridho Alvino.jpg"
+  },
+  {
+    "nisn": "0134627351",
+    "peserta": "06-05-101-266-059-3",
+    "nama": "Mutiara Ifza Eliana",
+    "kelas": "VI C",
+    "status": "LULUS",
+    "foto": "/website-kelulusan-alfalah2/images/Mutiara Ifza Eliana.jpg"
+  },
+  {
+    "nisn": "0138535550",
+    "peserta": "06-05-101-266-060-2",
+    "nama": "Nabil Fahriza",
+    "kelas": "VI C",
+    "status": "LULUS",
+    "foto": "/website-kelulusan-alfalah2/images/Nabil Fahriza.jpg"
+  },
+  {
+    "nisn": "3144381169",
+    "peserta": "06-05-101-266-061-9",
+    "nama": "Rakan Syaqran Abyan",
+    "kelas": "VI C",
+    "status": "LULUS",
+    "foto": "/website-kelulusan-alfalah2/images/Rakan Syaqran Abyan.jpg"
+  },
+  {
+    "nisn": "0145987936",
+    "peserta": "06-05-101-266-062-8",
+    "nama": "Yasmin Khanza Salsabila",
+    "kelas": "VI C",
+    "status": "LULUS",
+    "foto": "/website-kelulusan-alfalah2/images/Yasmin Khanza Salsabila.jpg"
+  },
+  {
+    "nisn": "3139164728",
+    "peserta": "06-05-101-266-063-7",
+    "nama": "Zahrana Haura Nashrullah",
+    "kelas": "VI C",
+    "status": "LULUS",
+    "foto": "/website-kelulusan-alfalah2/images/Zahrana Haura Nashrullah.jpg"
+  },
+  {
+    "nisn": "3131895845",
+    "peserta": "06-05-101-266-064-6",
+    "nama": "Zara Zafira Harahap",
+    "kelas": "VI C",
+    "status": "LULUS",
+    "foto": "/website-kelulusan-alfalah2/images/Zara Zafira Harahap.jpg"
+  },
+  {
+    "nisn": "0147547504",
+    "peserta": "06-05-101-266-065-5",
+    "nama": "Annisa Anindya Atmadia",
+    "kelas": "VI D",
+    "status": "LULUS",
+    "foto": "/website-kelulusan-alfalah2/images/Annisa Anindya Atmadia.jpg"
+  },
+  {
+    "nisn": "0141751823",
+    "peserta": "06-05-101-266-066-4",
+    "nama": "Arissa Talia Wartanto",
+    "kelas": "VI D",
+    "status": "LULUS",
+    "foto": "/website-kelulusan-alfalah2/images/Arissa Talia Wartanto.jpg"
+  },
+  {
+    "nisn": "0145953087",
+    "peserta": "06-05-101-266-067-3",
+    "nama": "Chayra Fayola Emeral",
+    "kelas": "VI D",
+    "status": "LULUS",
+    "foto": "/website-kelulusan-alfalah2/images/Chayra Fayola Emeral.jpg"
+  },
+  {
+    "nisn": "0136350297",
+    "peserta": "06-05-101-266-068-2",
+    "nama": "Chila Tabina",
+    "kelas": "VI D",
+    "status": "LULUS",
+    "foto": "/website-kelulusan-alfalah2/images/Chila Tabina.jpg"
+  },
+  {
+    "nisn": "0137191341",
+    "peserta": "06-05-101-266-069-9",
+    "nama": "Dylan Marciano Adilla",
+    "kelas": "VI D",
+    "status": "LULUS",
+    "foto": "/website-kelulusan-alfalah2/images/Dylan Marciano Adilla.jpg"
+  },
+  {
+    "nisn": "3143481813",
+    "peserta": "06-05-101-266-070-8",
+    "nama": "Fahmi Ammar",
+    "kelas": "VI D",
+    "status": "LULUS",
+    "foto": "/website-kelulusan-alfalah2/images/Fahmi Ammar.jpg"
+  },
+  {
+    "nisn": "0147565320",
+    "peserta": "06-05-101-266-071-7",
+    "nama": "Fildza Karisa Ramadhani",
+    "kelas": "VI D",
+    "status": "LULUS",
+    "foto": "/website-kelulusan-alfalah2/images/Fildza Karisa Ramadhani.jpg"
+  },
+  {
+    "nisn": "3146968241",
+    "peserta": "06-05-101-266-072-6",
+    "nama": "Gilang Abqari Wijaya",
+    "kelas": "VI D",
+    "status": "LULUS",
+    "foto": "/website-kelulusan-alfalah2/images/Gilang Abqari Wijaya.jpg"
+  },
+  {
+    "nisn": "0138919586",
+    "peserta": "06-05-101-266-073-5",
+    "nama": "Kayla Malva Marella",
+    "kelas": "VI D",
+    "status": "LULUS",
+    "foto": "/website-kelulusan-alfalah2/images/Kayla Malva Marella.jpg"
+  },
+  {
+    "nisn": "0134977598",
+    "peserta": "06-05-101-266-074-4",
+    "nama": "M. Fatih Arkansyah",
+    "kelas": "VI D",
+    "status": "LULUS",
+    "foto": "/website-kelulusan-alfalah2/images/M. Fatih Arkansyah.jpg"
+  },
+  {
+    "nisn": "0143431773",
+    "peserta": "06-05-101-266-075-3",
+    "nama": "M. Rizki Anugrah",
+    "kelas": "VI D",
+    "status": "LULUS",
+    "foto": "/website-kelulusan-alfalah2/images/M. Rizki Anugrah.jpg"
+  },
+  {
+    "nisn": "0141119526",
+    "peserta": "06-05-101-266-076-2",
+    "nama": "M. Thufail Setiawan",
+    "kelas": "VI D",
+    "status": "LULUS",
+    "foto": "/website-kelulusan-alfalah2/images/M. Thufail Setiawan.jpg"
+  },
+  {
+    "nisn": "0135652694",
+    "peserta": "06-05-101-266-077-9",
+    "nama": "Mikayla Az-Zahra Wardana",
+    "kelas": "VI D",
+    "status": "LULUS",
+    "foto": "/website-kelulusan-alfalah2/images/Mikayla Az-Zahra Wardana.jpg"
+  },
+  {
+    "nisn": "0133930602",
+    "peserta": "06-05-101-266-078-8",
+    "nama": "Muhammad Al Khortah",
+    "kelas": "VI D",
+    "status": "LULUS",
+    "foto": "/website-kelulusan-alfalah2/images/Muhammad Al Khortah.jpg"
+  },
+  {
+    "nisn": "3140419203",
+    "peserta": "06-05-101-266-079-7",
+    "nama": "Muhammad Iqbal Marezzi",
+    "kelas": "VI D",
+    "status": "LULUS",
+    "foto": "/website-kelulusan-alfalah2/images/Muhammad Iqbal Marezzi.jpg"
+  },
+  {
+    "nisn": "3140049161",
+    "peserta": "06-05-101-266-080-6",
+    "nama": "Muhammad Raffa Raditya",
+    "kelas": "VI D",
+    "status": "LULUS",
+    "foto": "/website-kelulusan-alfalah2/images/Muhammad Raffa Raditya.jpg"
+  },
+  {
+    "nisn": "0144620110",
+    "peserta": "06-05-101-266-081-5",
+    "nama": "Noor Fathiyyah Putri Shafira",
+    "kelas": "VI D",
+    "status": "LULUS",
+    "foto": "/website-kelulusan-alfalah2/images/Noor Fathiyyah Putri Shafira.jpg"
+  },
+  {
+    "nisn": "0147164933",
+    "peserta": "06-05-101-266-082-4",
+    "nama": "Raffandra Aulia Rasyad",
+    "kelas": "VI D",
+    "status": "LULUS",
+    "foto": "/website-kelulusan-alfalah2/images/Raffandra Aulia Rasyad.jpg"
+  },
+  {
+    "nisn": "0136506315",
+    "peserta": "06-05-101-266-083-3",
+    "nama": "Razi Triandaru",
+    "kelas": "VI D",
+    "status": "LULUS",
+    "foto": "/website-kelulusan-alfalah2/images/Razi Triandaru.jpg"
+  },
+  {
+    "nisn": "0139838028",
+    "peserta": "06-05-101-266-084-2",
+    "nama": "Reagan Rafael Siahaan",
+    "kelas": "VI D",
+    "status": "LULUS",
+    "foto": "/website-kelulusan-alfalah2/images/Reagan Rafael Siahaan.jpg"
+  },
+  {
+    "nisn": "0141635863",
+    "peserta": "06-05-101-266-085-9",
+    "nama": "Risa Nafla syakira",
+    "kelas": "VI D",
+    "status": "LULUS",
+    "foto": "/website-kelulusan-alfalah2/images/Risa Nafla syakira.jpg"
+  },
+  {
+    "nisn": "0149695111",
+    "peserta": "06-05-101-266-086-8",
+    "nama": "Rumi Khairunnisa",
+    "kelas": "VI D",
+    "status": "LULUS",
+    "foto": "/website-kelulusan-alfalah2/images/Rumi Khairunnisa.jpg"
+  },
+  {
+    "nisn": "0149969836",
+    "peserta": "06-05-101-266-087-7",
+    "nama": "Shofie Nadhifah",
+    "kelas": "VI D",
+    "status": "LULUS",
+    "foto": "/website-kelulusan-alfalah2/images/Shofie Nadhifah.jpg"
+  },
+  {
+    "nisn": "0143447503",
+    "peserta": "06-05-101-266-088-6",
+    "nama": "Siti Aisyah Azalea AlHarsyad",
+    "kelas": "VI D",
+    "status": "LULUS",
+    "foto": "/website-kelulusan-alfalah2/images/Siti Aisyah Azalea AlHarsyad.jpg"
   }
 ]

@@ -22,19 +22,17 @@ export default function LoginForm() {
       );
 
       if (student) {
-  setResult(student);
+        setResult(student);
 
-  setTimeout(() => {
-    document
-      .getElementById("result-card")
-      ?.scrollIntoView({
-        behavior: "smooth",
-        block: "start",
-      });
-  }, 300);
-} else {
-  setError("Data tidak ditemukan");
-}
+        setTimeout(() => {
+          document.getElementById("result-card")?.scrollIntoView({
+            behavior: "smooth",
+            block: "start",
+          });
+        }, 300);
+      } else {
+        setError("Data tidak ditemukan");
+      }
 
       setLoading(false);
     }, 2500);
@@ -126,7 +124,7 @@ export default function LoginForm() {
 
       {/* RESULT */}
       {result && (
-        <div className="w-full mt-2">n
+        <div className="w-full mt-2">
           <ResultCard student={result} />
         </div>
       )}
