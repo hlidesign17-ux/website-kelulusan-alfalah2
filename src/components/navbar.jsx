@@ -12,7 +12,7 @@ export default function Navbar() {
 
           <div>
             <h1 className="text-white font-bold text-lg leading-tight">
-              SD Islam Al Falah 2
+              SD S Islam Al Falah 2
             </h1>
 
             <p className="text-green-300 text-sm">Kota Jambi</p>

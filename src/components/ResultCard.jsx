@@ -138,7 +138,7 @@ mx-auto
         >
           <p className="text-gray-400 text-sm">Kepala Sekolah</p>
 
-          <h4 className="text-xl font-bold mt-3">Uttomo Widyanto, S.Pd.,SD</h4>
+          <h4 className="text-xl font-bold mt-3">Utomo Widyanto, S.Pd.,SD</h4>
         </motion.div>
       </motion.div>
     </>

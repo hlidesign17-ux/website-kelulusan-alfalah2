@@ -47,7 +47,7 @@ export default function HomePage() {
         </div>
 
         <h1 className="relative z-10 text-5xl sm:text-6xl md:text-7xl font-black leading-tight">
-          SD Islam <br />
+          SD S Islam <br />
           Al Falah 2 Jambi
         </h1>
 
@@ -56,7 +56,7 @@ export default function HomePage() {
         </p>
 
         <p className="relative z-10 mt-8 text-gray-300 max-w-2xl text-sm sm:text-base md:text-lg leading-relaxed">
-          Website resmi pengumuman kelulusan siswa SD Islam Al Falah 2 Jambi
+          Website resmi pengumuman kelulusan siswa SD S Islam Al Falah 2 Jambi
           Tahun Pelajaran 2025/2026.
         </p>
 
@@ -112,14 +112,14 @@ export default function HomePage() {
                 Utomo Widyanto, S.Pd., SD
               </h3>
 
-              <p className="text-gray-300 mt-2">SD Islam Al Falah 2 Jambi</p>
+              <p className="text-gray-300 mt-2">SD S Islam Al Falah 2 Jambi</p>
 
               <div className="mt-8 text-gray-200 leading-relaxed space-y-4">
                 <p>Assalamu'alaikum Warahmatullahi Wabarakatuh.</p>
 
                 <p>
                   Selamat kepada seluruh siswa yang telah menyelesaikan
-                  pendidikan di SD Islam Al Falah 2 Jambi.
+                  pendidikan di SD S Islam Al Falah 2 Jambi.
                 </p>
 
                 <p>
