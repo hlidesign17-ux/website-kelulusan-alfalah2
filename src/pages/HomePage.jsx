@@ -109,7 +109,7 @@ export default function HomePage() {
         {!isOpen ? (
           <div className="text-center text-white">
             <h2 className="text-3xl font-bold text-green-300 mb-6">
-              Pengumuman Dibuka
+              Harap Menunggu
             </h2>
 
             <div className="text-center text-white mt-10">
