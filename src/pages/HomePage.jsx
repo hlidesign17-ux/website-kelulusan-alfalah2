@@ -5,7 +5,7 @@ import ParticlesBackground from "../components/ParticlesBackground";
 import { useEffect } from "react";
 
 export default function HomePage() {
-  const targetDate = new Date("2026-05-31T13:10:00").getTime();
+  const targetDate = new Date("2026-06-02T20:00:00").getTime();
 
   const [isOpen, setIsOpen] = useState(false);
   const [timeLeft, setTimeLeft] = useState(targetDate - Date.now());
@@ -234,12 +234,12 @@ export default function HomePage() {
                   <p className="text-green-400 text-sm">Wali Kelas 6A</p>
 
                   <p className="mt-4 text-gray-300 text-sm italic">
-                    "Teruslah belajar, di manapun kalian berada. Jadilah pribadi
-                    yang berintegrasi, bertanggung jawab, dan bermanfaat bagi
-                    orang lain. Jangan takut gagal karena dari kegagalan kalian
-                    akan tumbuh menjadi lebih kuat. Percayalah pada diri
-                    sendiri, karena kalian hebat dengan versi kalian
-                    masing-masing"
+                    Selamat atas kelulusan ananda<br></br>"Teruslah belajar, di
+                    manapun kalian berada. Jadilah pribadi yang berintegrasi,
+                    bertanggung jawab, dan bermanfaat bagi orang lain. Jangan
+                    takut gagal karena dari kegagalan kalian akan tumbuh menjadi
+                    lebih kuat. Percayalah pada diri sendiri, karena kalian
+                    hebat dengan versi kalian masing-masing"
                   </p>
                 </div>
               </div>
