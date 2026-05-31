@@ -2,8 +2,41 @@ import { useRef, useState } from "react";
 import Navbar from "../components/Navbar";
 import LoginForm from "../components/LoginForm";
 import ParticlesBackground from "../components/ParticlesBackground";
+import { useEffect } from "react";
 
 export default function HomePage() {
+  const targetDate = new Date("2026-06-02T20:00:00").getTime();
+
+  const [isOpen, setIsOpen] = useState(false);
+  const [timeLeft, setTimeLeft] = useState(targetDate - Date.now());
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      const now = Date.now();
+      const diff = targetDate - now;
+
+      if (diff <= 0) {
+        setIsOpen(true);
+        setTimeLeft(0);
+        clearInterval(interval);
+      } else {
+        setTimeLeft(diff);
+      }
+    }, 1000);
+
+    return () => clearInterval(interval);
+  }, []);
+  const formatTime = (ms) => {
+    const total = Math.floor(ms / 1000);
+
+    const days = Math.floor(total / 86400);
+    const hours = Math.floor((total % 86400) / 3600);
+    const minutes = Math.floor((total % 3600) / 60);
+    const seconds = total % 60;
+
+    return { days, hours, minutes, seconds };
+  };
+
   const audioRef = useRef(null);
   const [musicOn, setMusicOn] = useState(false);
 
@@ -73,7 +106,55 @@ export default function HomePage() {
         id="cek-kelulusan"
         className="min-h-screen flex items-center justify-center px-6"
       >
-        <LoginForm />
+        {!isOpen ? (
+          <div className="text-center text-white">
+            <h2 className="text-3xl font-bold text-green-300 mb-6">
+              Pengumuman Dibuka
+            </h2>
+
+            <div className="text-center text-white mt-10">
+              <h2 className="text-2xl md:text-3xl font-bold text-green-300 mb-8 tracking-wide">
+                Pengumuman Dibuka Dalam
+              </h2>
+
+              <div className="flex justify-center gap-3 md:gap-6">
+                {/* DAYS */}
+                <div className="flex flex-col items-center">
+                  <div className="text-4xl md:text-6xl font-black text-white bg-white/10 px-5 py-4 rounded-2xl backdrop-blur-md shadow-lg shadow-green-500/20">
+                    {String(formatTime(timeLeft).days).padStart(2, "0")}
+                  </div>
+                  <span className="text-green-300 text-sm mt-2">Hari</span>
+                </div>
+
+                {/* HOURS */}
+                <div className="flex flex-col items-center">
+                  <div className="text-4xl md:text-6xl font-black text-white bg-white/10 px-5 py-4 rounded-2xl backdrop-blur-md shadow-lg shadow-green-500/20">
+                    {String(formatTime(timeLeft).hours).padStart(2, "0")}
+                  </div>
+                  <span className="text-green-300 text-sm mt-2">Jam</span>
+                </div>
+
+                {/* MINUTES */}
+                <div className="flex flex-col items-center">
+                  <div className="text-4xl md:text-6xl font-black text-white bg-white/10 px-5 py-4 rounded-2xl backdrop-blur-md shadow-lg shadow-green-500/20">
+                    {String(formatTime(timeLeft).minutes).padStart(2, "0")}
+                  </div>
+                  <span className="text-green-300 text-sm mt-2">Menit</span>
+                </div>
+
+                {/* SECONDS */}
+                <div className="flex flex-col items-center">
+                  <div className="text-4xl md:text-6xl font-black text-white bg-white/10 px-5 py-4 rounded-2xl backdrop-blur-md shadow-lg shadow-green-500/20 animate-pulse">
+                    {String(formatTime(timeLeft).seconds).padStart(2, "0")}
+                  </div>
+                  <span className="text-green-300 text-sm mt-2">Detik</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        ) : (
+          <LoginForm />
+        )}
       </section>
 
       {/* TENDIK SECTION */}
