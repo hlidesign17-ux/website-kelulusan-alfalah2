@@ -5,7 +5,7 @@ import ParticlesBackground from "../components/ParticlesBackground";
 import { useEffect } from "react";
 
 export default function HomePage() {
-  const targetDate = new Date("2026-06-02T20:00:00").getTime();
+  const targetDate = new Date("2026-06-02T22:00:00").getTime();
 
   const [isOpen, setIsOpen] = useState(false);
   const [timeLeft, setTimeLeft] = useState(targetDate - Date.now());
