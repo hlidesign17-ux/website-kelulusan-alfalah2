@@ -319,6 +319,47 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* FOOTER */}
+      <footer className="relative border-t border-green-500/20 bg-black/40 backdrop-blur-md py-12 px-6">
+        <div className="max-w-5xl mx-auto text-center">
+          <div className="w-20 h-1 bg-green-500 mx-auto rounded-full mb-6"></div>
+
+          <h3 className="text-xl md:text-2xl font-bold text-white">Eduversa</h3>
+
+          <p className="mt-4 text-gray-300 max-w-2xl mx-auto">
+            Website ini dikembangkan untuk
+          </p>
+
+          <p className="mt-4 text-gray-300 max-w-2xl mx-auto">
+            mendukung digitalisasi layanan pendidikan SD S Islam Al Falah 2
+            Jambi.
+          </p>
+
+          <p className="mt-6 text-gray-400">
+            Mengalami kendala saat mengakses website? Hubungi Arief (Eduversa)
+            CP : 0851-7983-8108 atau dengan menekan tombol di bawah
+          </p>
+
+          <a
+            href="https://wa.me/6285179838108"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center mt-4 bg-green-500 hover:bg-green-400
+      text-black font-bold px-6 py-3 rounded-full
+      shadow-lg shadow-green-500/30
+      hover:scale-105 transition-all duration-300"
+          >
+            💬 Hubungi WhatsApp
+          </a>
+
+          <div className="mt-10 pt-6 border-t border-white/10">
+            <p className="text-xs text-gray-500">
+              © 2026 SD S Islam Al Falah 2 Jambi
+            </p>
+          </div>
+        </div>
+      </footer>
+
       {/* AUDIO */}
       <audio ref={audioRef} loop>
         <source
